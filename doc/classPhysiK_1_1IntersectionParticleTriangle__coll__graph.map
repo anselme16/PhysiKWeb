@@ -1,0 +1,7 @@
+<map id="PhysiK::IntersectionParticleTriangle" name="PhysiK::IntersectionParticleTriangle">
+<area shape="rect" id="node2" href="$classPhysiK_1_1Particle.html" title="The Particle class. " alt="" coords="142,556,258,648"/>
+<area shape="rect" id="node5" href="$classPhysiK_1_1PhysicObject.html" title="Internal representation of an object. " alt="" coords="234,711,385,964"/>
+<area shape="rect" id="node3" href="$classPhysiK_1_1vec3.html" title="A vertex. " alt="" coords="244,5,369,464"/>
+<area shape="rect" id="node4" href="$classPhysiK_1_1Body.html" title="Add topological informations to a body. " alt="" coords="141,1027,296,1207"/>
+<area shape="rect" id="node6" href="$classPhysiK_1_1Triangle.html" title="Contain a set of three vertex offset. " alt="" coords="91,784,210,891"/>
+</map>

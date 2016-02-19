@@ -1,0 +1,73 @@
+body
+{
+	font-family: "Helvetica", "Sans-serif";
+	background-color: #121212;
+	font-size: 1.1em;
+}
+
+h1
+{
+	font-family: "Tahoma", "Helvetica", "Sans-serif";
+	text-align: center;
+	color: #3B52FF;
+	font-size: 4em;
+	margin: 30px;
+}
+
+h2
+{
+	color: #A9B1E8;
+	font-size: 2em;
+	clear: both;
+}
+
+h3
+{
+	color: #A9B1E8;
+	font-size: 1.3em;
+	font-style: italic;
+}
+
+h4
+{
+	margin: 5px;
+	font-size: 1.2em;
+}
+
+a
+{
+	color: #93DDED;
+}
+
+.backgroundImage
+{
+	position:absolute;
+	width: 2379px;
+	height: 1280px;
+	top: -200px;
+	left: -300px;
+}
+
+.textBlock
+{
+	background-color: #424242;
+	margin: 10px;
+	padding: 10px;
+}
+
+.teamBlock
+{
+	width: 316px;
+	float:left;
+}
+
+#mainArea
+{
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px;
+	background-color: #333333;
+	color: #E6E6E6;
+	width: 1068px;
+	margin-top: 540px;
+}

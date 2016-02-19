@@ -1,0 +1,6 @@
+<map id="PhysiK::IntersectionParticleParticle" name="PhysiK::IntersectionParticleParticle">
+<area shape="rect" id="node2" href="$classPhysiK_1_1ParticleGroup.html" title="Represents a set of particles that share the same attributes (radius and mass) " alt="" coords="29,1013,180,1120"/>
+<area shape="rect" id="node3" href="$classPhysiK_1_1PhysicObject.html" title="Internal representation of an object. " alt="" coords="29,711,180,964"/>
+<area shape="rect" id="node4" href="$classPhysiK_1_1vec3.html" title="A vertex. " alt="" coords="71,5,197,464"/>
+<area shape="rect" id="node5" href="$classPhysiK_1_1Particle.html" title="The Particle class. " alt="" coords="188,556,304,648"/>
+</map>

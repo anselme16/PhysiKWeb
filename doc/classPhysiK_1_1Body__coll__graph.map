@@ -1,0 +1,6 @@
+<map id="PhysiK::Body" name="PhysiK::Body">
+<area shape="rect" id="node2" href="$classPhysiK_1_1PhysicObject.html" title="Internal representation of an object. " alt="" coords="44,711,195,964"/>
+<area shape="rect" id="node3" href="$classPhysiK_1_1vec3.html" title="A vertex. " alt="" coords="33,5,158,464"/>
+<area shape="rect" id="node4" href="$classPhysiK_1_1Particle.html" title="The Particle class. " alt="" coords="200,556,316,648"/>
+<area shape="rect" id="node5" href="$classPhysiK_1_1Triangle.html" title="Contain a set of three vertex offset. " alt="" coords="219,784,338,891"/>
+</map>
