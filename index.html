@@ -1,98 +1,105 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 <html>
 
 <head>
 	<title>PhysiK</title>
-	<meta charset=UTF-8">
+	<meta charset="UTF-8">
 	<link rel="stylesheet" style="text/css" href="style.css">
 </head>
 
-<img class="backgroundImage" src="background.png"/>
+<body>
 
-<div id="mainArea">
-	<h1>PhysiK</h1>
-	
-	<p style="text-align: center;">[vidÈo de dÈmo ici] (en HTML 5 si possible, sinon sur youtube)</p>
-	
-	<div class="textBlock">
-		<p>PhysiK est une implÈmentation, rÈalisÈe par 3 Ètudiants en derniËre annÈe de
-			<a href="http://www.dept-info.ups-tlse.fr/index.php?option=com_content&amp;view=article&amp;id=57&amp;Itemid=668">Master Imagerie & MultimÈdia</a>
-			‡ l'<a href="http://www.univ-tlse3.fr/">UniversitÈ Toulouse III - Paul Sabatier</a>, de la publication
-			<a href="http://matthias-mueller-fischer.ch/publications/posBasedDyn.pdf">Position Based Dynamics</a> de l'Èquipe de <a href="http://matthias-mueller-fischer.ch/">Matthias M¸ller</a>
-			‡ <a href="http://www.nvidia.com/">NVIDIA</a>.
-		</p>
-	</div>
-
-	<h2>L'Èquipe</h2>
-
-	<div>
-		<div class="teamBlock textBlock">
-			<h3>Anselme FRAN«OIS</h3>
-			<p>site : <a href="http://epicsparrow.com">EpicSparrow.com</a></p>
-			<hr/>
-			<h4>UI</h4>
-			<p>CrÈation de l'interface de l'application gr‚ce ‡ Qt</p>
-			<h4>Rendu 3D</h4>
-			<p>Utilisation de mon moteur de rendu SparrowRenderer, ajout de fonctionnalitÈs nÈcessaires ‡ l'application telles que
-			l'instancing pour les particules et le picking pour la manipulation de la scËne</p>
-			<h4>Compilation</h4>
-			<p>Mise en place de fichiers de configuration qmake et des dÈpendances pour compiler facilement sur Windows comme sur UNIX</p>
+	<div id="mainArea">
+		<h1>PhysiK</h1>
+		
+		<p style="text-align: center;">[vid√©o de d√©mo ici] (en HTML 5 si possible, sinon sur youtube)</p>
+		
+		<div class="textBlock">
+			<p>PhysiK est une impl√©mentation, r√©alis√©e par 3 √©tudiants en derni√®re ann√©e de
+				<a href="http://www.dept-info.ups-tlse.fr/index.php?option=com_content&amp;view=article&amp;id=57&amp;Itemid=668">Master Imagerie & Multim√©dia</a>
+				√† l'<a href="http://www.univ-tlse3.fr/">Universit√© Toulouse III - Paul Sabatier</a>, de la publication
+				<a href="http://matthias-mueller-fischer.ch/publications/posBasedDyn.pdf">Position Based Dynamics</a> de l'√©quipe de <a href="http://matthias-mueller-fischer.ch/">Matthias M√ºller</a>
+				√† <a href="http://www.nvidia.com/">NVIDIA</a>.
+			</p>
 		</div>
-		<div class="teamBlock textBlock">
-			<h3>Dimitri RAGUET</h3>
-			<p>site : <a href="http://hdimitri.pagesperso-orange.fr/">HDimitri</a></p>
-			<hr/>
-			<h4>Solveur</h4>
-			<h4>Contraintes</h4>
-			<h4>Collisions</h4>
-			<h4>Documentation</h4>
-			<p>doxygen</p>
+
+		<h2>L'√©quipe</h2>
+
+		<div id="teamContainer">
+			<div class="teamBlock textBlock">
+				<h3>Anselme FRAN√áOIS</h3>
+				<p>site : <a href="http://epicsparrow.com">EpicSparrow.com</a></p>
+				<hr/>
+				<h4>UI</h4>
+				<p>Cr√©ation de l'interface de l'application gr√¢ce √† Qt</p>
+				<h4>Rendu 3D</h4>
+				<p>Utilisation de mon moteur de rendu SparrowRenderer, ajout de fonctionnalit√©s n√©cessaires √† l'application telles que
+				l'instancing pour les particules et le picking pour la manipulation de la sc√®ne</p>
+				<h4>Compilation</h4>
+				<p>Mise en place de fichiers de configuration qmake et des d√©pendances pour compiler facilement sur Windows comme sur UNIX</p>
+			</div>
+			<div class="teamBlock textBlock">
+				<h3>Dimitri RAGUET</h3>
+				<hr/>
+				<h4>Solveur</h4>
+				<p>
+					Lecture et comprehension de papier de recherche, d'algorithmes divers (colisions, solveur, calcul de volumes...), et impl√©mentation du solveur celon les sp√©cifications mise en place avec le groupe.
+				</p>
+				<h4>Collisions</h4>
+				<p>
+					Mise en place d'une structure de donn√©es efficace permettant d'acceder au objets contenus dans un voxel de la sc√®ne.
+				</p>
+				<h4>Documentation</h4>
+				<p>
+					Mise en place de fichiers de configurations permetant de g√©n√©rer une documentation avec doxygen
+				</p>
+			</div>
+			<div class="teamBlock textBlock">
+				<h3>Fabien BOCO</h3>
+				<p>site : <a href="http://fabienboco.com">FabienBoco.com</a></p>
+				<hr/>
+				<h4>Communication</h4>
+				<h4>Coh√©rence</h4>
+				<h4>Divers</h4>
+				
+			</div>
 		</div>
-		<div class="teamBlock textBlock">
-			<h3>Fabien BOCO</h3>
-			<p>site : <a href="http://fabienboco.com">FabienBoco.com</a></p>
-			<hr/>
-			<h4>Communication</h4>
-			<h4>CohÈrence</h4>
-			<h4>Divers</h4>
-			
+
+		<h2>La publication</h2>
+
+		<div class="textBlock">
+			<p>r√©sum√© du papier PBD</p>
+		</div>
+
+		<h2>La r√©alisation</h2>
+
+		<div class="textBlock">
+			<p>r√©sum√© du d√©roulement de l'UE chef d'≈ìuvre</p>
+
+			<p>- √©tude des publications</p>
+
+			<p>- sp√©cifications / conception</p>
+
+			<p>- codage / r√©sultats</p>
+		</div>
+
+		<h2>Les Livrables</h2>
+
+		<div class="textBlock">
+			<p>Sources du projet sur <a href="https://github.com/MetalDiamond/PhysiK">GiTeub</a><br/>D√©pendances : gcc ou MinGW, Qt 4 ou plus</p>
+			<p><a href="doc/index.html">Documentation PhysiK</a></p>
+			<p>Ex√©cutable windows 32 bits : <a href="PhysiKSandbox.7z">PhysiKSandbox.7z</a></p>
+			<p>Manuel utilisateur : <a href="manuel.pdf">manuel.pdf</a></p>
+		</div>
+		
+		<h2>Remerciements</h2>
+
+		<div class="textBlock">
+			<p>Universit√© Toulouse III - Paul Sabatier</p>
+			<p>Nos encadrants / clients : Charly MOURGLIA et Valentin ROUSSELET</p>
+			<p>ma famille / mes amis / Satan</p>
 		</div>
 	</div>
 
-	<h2>La publication</h2>
-
-	<div class="textBlock">
-		<p>rÈsumÈ du papier PBD</p>
-	</div>
-
-	<h2>La rÈalisation</h2>
-
-	<div class="textBlock">
-		<p>rÈsumÈ du dÈroulement de l'UE chef d'úuvre</p>
-
-		<p>- Ètude des publications</p>
-
-		<p>- spÈcifications / conception</p>
-
-		<p>- codage / rÈsultats</p>
-	</div>
-
-	<h2>Les Livrables</h2>
-
-	<div class="textBlock">
-		<p>Sources du projet sur <a href="https://github.com/MetalDiamond/PhysiK">GiTeub</a><br/>DÈpendances : gcc ou MinGW, Qt 4 ou plus</p>
-		<p><a href="doc">Documentation PhysiK</a></p>
-		<p>ExÈcutable windows 32 bits : <a href="PhysiKSandbox.7z">PhysiKSandbox.7z</a></p>
-		<p>Manuel utilisateur : <a href="manuel.pdf">manuel.pdf</a></p>
-	</div>
-	
-	<h2>Remerciements</h2>
-
-	<div class="textBlock">
-		<p>UniversitÈ Toulouse III - Paul Sabatier</p>
-		<p>Nos encadrants / clients : Charly MOURGLIA et Valentin ROUSSELET</p>
-		<p>ma famille / mes amis / Satan</p>
-	</div>
-</div>
-
+</body>
 </html>
