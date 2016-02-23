@@ -37,8 +37,6 @@
 				l'instancing pour les particules et le picking pour la manipulation de la scène</p>
 				<h4>Compilation</h4>
 				<p>Mise en place de fichiers de configuration qmake et des dépendances pour compiler facilement sur Windows comme sur UNIX</p>
-				<h4>Ce site internet</h4>
-				<p>Comme quoi n'importe qui peut faire du WEB...</p>
 			</div>
 			<div class="teamBlock textBlock">
 				<h3>Dimitri RAGUET</h3>
@@ -46,15 +44,15 @@
 				<hr/>
 				<h4>Solveur</h4>
 				<p>
-					Lecture et comprehension de papier de recherche, d'algorithmes divers (colisions, solveur, calcul de volumes...), et implémentation du solveur celon les spécifications mise en place avec le groupe.
+					Lecture et comprehension de papier de recherche, d'algorithmes divers (colisions, solveur, calcul de volumes...), et implémentation du solveur selon les spécifications mises en place avec le groupe
 				</p>
 				<h4>Collisions</h4>
 				<p>
-					Mise en place d'une structure de données efficace permettant d'acceder au objets contenus dans un voxel de la scène.
+					Mise en place d'une structure de données efficace permettant d'accéder au objets contenus dans un voxel de la scène
 				</p>
 				<h4>Documentation</h4>
 				<p>
-					Mise en place de fichiers de configurations permetant de générer une documentation avec doxygen
+					Mise en place des fichiers de configurations permettant de générer une documentation avec doxygen
 				</p>
 			</div>
 			<div class="teamBlock textBlock">
@@ -64,7 +62,7 @@
 				<h4>Contraintes</h4>
 				<p>Mise en place des contraintes de base</p>
 				<h4>Cohérence</h4>
-				<p>Construction et instanciation des différents type d'objet gérés par le moteur. Correction des comportements instable.</p>
+				<p>Construction et instanciation des différents type d'objet gérés par le moteur (groupe de particules, rigidbody). Correction des comportements instables</p>
 				<h4>Communication</h4>
 				<p>Echanges avec le client, rédaction/mise en page des rapports, video de démonstration</p>
 				
@@ -74,7 +72,13 @@
 		<h2>La publication</h2>
 
 		<div class="textBlock">
-			<p>résumé du papier PBD</p>
+
+			<p>
+				Contrairement aux méthodes classiques, basées sur la simulation de Newton, cette méthode possède comme principal avantage d’être assez facile à implémenter. En effet, les objets sont tous ramenés à des primitives de base : des particules élémentaires et des triangles. Ce choix engendre certes un nombre très important de primitives mais ce traitement en devient extrêmement rapide et aisé. En effet toutes les règles caractérisant les objets modélisés et leurs comportement sont représentées par des contraintes ne prenant en paramètre que les positions des primitives. Malgré cette simplification, le modèle reste stable et possède de bonnes propriétés de conservation d’énergie (moment linéaire et moment angulaire).
+			</p>
+
+			<p><a href="posBasedDyn.pdf">Position_Based_Dynamics.pdf</a></p>
+
 		</div>
 
 		<h2>La réalisation</h2>
@@ -92,7 +96,7 @@
 		<h2>Les Livrables</h2>
 
 		<div class="textBlock">
-			<p>Sources du projet sur <a href="https://github.com/MetalDiamond/PhysiK">GiTeub</a><br/>Dépendances : gcc ou MinGW, Qt 4 ou plus</p>
+			<p>Sources du projet sur <a href="https://github.com/MetalDiamond/PhysiK">GitHub</a><br/>Dépendances : gcc ou MinGW, Qt 4 ou plus</p>
 			<p><a href="doc/index.html">Documentation PhysiK</a></p>
 			<p>Exécutable windows 32 bits : <a href="PhysiKSandbox.7z">PhysiKSandbox.7z</a></p>
 			<p>Manuel utilisateur : <a href="manuel.pdf">manuel.pdf</a></p>
@@ -103,7 +107,6 @@
 		<div class="textBlock">
 			<p>Université Toulouse III - Paul Sabatier</p>
 			<p>Nos encadrants / clients : Charly MOURGLIA et Valentin ROUSSELET</p>
-			<p>ma famille / mes amis / Satan</p>
 		</div>
 	</div>
 </body>
