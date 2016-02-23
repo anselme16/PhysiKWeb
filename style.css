@@ -39,12 +39,13 @@ a
 	color: #93DDED;
 }
 
-body
+.backgroundImage
 {
-	background-image: url(background.png);
-    background-position: -597px -639px;
-    background-repeat: no-repeat;
-    background-size: 2362px;
+	position: absolute;
+	width: 2379px;
+	height: 1280px;
+	top: -200px;
+	left: calc(50% - 1260px);
 }
 
 .textBlock
@@ -54,21 +55,19 @@ body
 	padding: 10px;
 }
 
-#teamContainer{
-    display: flex;
-    flex-direction: row;
-    flex-flow: row wrap;
-}
-
 .teamBlock
 {
 	width: 316px;
+	float:left;
 }
 
 #mainArea
 {
-	margin: 100px;
+	margin-left: auto;
+	margin-right: auto;
 	padding: 30px;
-	background-color: hsla(0, 0%, 100%, 0.1);
+	background-color: #333333;
 	color: #E6E6E6;
+	width: 1068px;
+	margin-top: 540px;
 }
