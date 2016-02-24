@@ -46,6 +46,7 @@ a
 	height: 1280px;
 	top: -200px;
 	left: calc(50% - 1260px);
+	pointer-events: none;
 }
 
 .textBlock
